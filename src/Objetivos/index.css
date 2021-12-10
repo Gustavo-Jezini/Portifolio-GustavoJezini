@@ -1,0 +1,19 @@
+.obj{
+  padding: 150px 0px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8ec;
+}
+
+.objText {
+  width: 50%;
+  color: #0e2430;
+  letter-spacing: 0px;
+  font-size: larger;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 3em #f5b349;
+}
