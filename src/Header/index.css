@@ -1,0 +1,23 @@
+.header{
+  color: #f5b349;
+  background: linear-gradient(to left, rgba(3,28,48, 0.95), rgba(0,0,0,0.88)),
+        url('../imagens/imagemProgramacao.jpeg');
+  height: 450px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divText{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  margin-right: 75px;
+}
+
+.divText p{
+  font-size: larger;
+  letter-spacing: 2px;
+  font-family: 'IM Fell DW Pica';
+}
+
