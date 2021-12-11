@@ -17,7 +17,7 @@ nav{
 .links{
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 
 .links li{
@@ -80,9 +80,6 @@ nav{
     cursor: pointer;
   }
 
-  nav {
-    margin-bottom: 2000px;
-  }
 }
 
 .button-links {
