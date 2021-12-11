@@ -3,6 +3,21 @@ import './index.css';
 
 
 const NavBar = () => {
+function showLinks() {
+  const nav = document.querySelector('.links')
+  const navLinks = document.querySelectorAll('.links li')
+
+  nav.classList.toggle('nav-active');
+
+  navLinks.forEach((link) => {
+    if (link.class) {
+      link.classList = ''
+    } else {
+      link.classList.toggle('animate-links')
+    }
+  })
+}
+
   return (
     <nav>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -17,6 +32,11 @@ const NavBar = () => {
         <li>Projetos</li>
         <li>Objetivos</li>
       </ul>
+        <div className='burger' onClick={showLinks}>
+          <div className='line1'></div>
+          <div className='line2'></div>
+          <div className='line3'></div>
+        </div>
     </nav>
   )
 }
