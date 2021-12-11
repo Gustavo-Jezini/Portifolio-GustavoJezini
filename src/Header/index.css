@@ -1,10 +1,15 @@
+*{
+  font-family: 'IM Fell DW Pica';
+}
+
 .header{
   color: #f5b349;
   background: linear-gradient(to left, rgba(3,28,48, 0.95), rgba(0,0,0,0.88)),
         url('../imagens/imagemProgramacao.jpeg');
-  height: 450px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
+  padding: 30px 0px;
 }
 
 .divText{
@@ -16,8 +21,41 @@
 }
 
 .divText p{
-  font-size: larger;
+  font-size: 25px;
   letter-spacing: 2px;
   font-family: 'IM Fell DW Pica';
 }
 
+@media screen and (max-width: 768px) {
+  .divText{
+    font-size: 15px;
+  }
+  
+  .divText p{
+    font-size: larger;
+    letter-spacing: 2px;
+    font-family: 'IM Fell DW Pica';
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 20px 0px;
+  }
+  .divText{
+    font-size: 15px;
+  }
+  
+  .divText p{
+    font-size: larger;
+    letter-spacing: 2px;
+    font-family: 'IM Fell DW Pica';
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .divText p {
+    font-size: 20px;
+  }
+}
