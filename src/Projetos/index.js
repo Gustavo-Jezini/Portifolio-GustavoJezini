@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './projetos.css';
 import appReceitas from './icones/receitas.png'
 import backend from './icones/backend.png'
 import telaLogin from './icones/loginreal.png'
 import trivia from './icones/trivia.png'
+import AppReceitas from '../projectModals/appReceitas';
 
 const Projetos = () => {
+  const [showModal, setShowModal] = useState(false);
+  
+  const openModel = () => {
+    setShowModal(prev => !prev)
+  }
   return (
     <main className='projetos'>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -14,8 +20,12 @@ const Projetos = () => {
       <div className='projetoText'>
         <h1>PROJETOS</h1>
       </div>
+      { showModal ? <AppReceitas onClose={ openModel }>Modal aqui</AppReceitas> : null }
       <dit className='cards'>
-        <div className='cardProjeto'>
+        <div 
+          className='cardProjeto'
+          onClick={ openModel }
+        >
           <img src={appReceitas} alt='Aplicativo de receitas'/>
           <ul className='tecnologias'>
             <li>JavaScript</li>
