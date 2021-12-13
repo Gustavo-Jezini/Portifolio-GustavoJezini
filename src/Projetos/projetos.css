@@ -1,5 +1,5 @@
 .projetos {
-  height: auto;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -42,9 +42,19 @@
   color: #f5b349;
 }
 
+@media screen and (max-width: 768) {
+  .projetos {
+    height: 1000px;
+  }
+
+
+
+}
+
 @media screen and (max-width: 600px) {
   .projetos {
     flex-direction: row;
+    height: auto;
   }
   
   .cards {
