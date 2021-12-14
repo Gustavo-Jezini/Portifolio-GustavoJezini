@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portifolio-GustavoJezini/static/css/main.967f4fef.chunk.css",
-    "main.js": "/Portifolio-GustavoJezini/static/js/main.eb2d3d48.chunk.js",
-    "main.js.map": "/Portifolio-GustavoJezini/static/js/main.eb2d3d48.chunk.js.map",
+    "main.css": "/Portifolio-GustavoJezini/static/css/main.0d6374ae.chunk.css",
+    "main.js": "/Portifolio-GustavoJezini/static/js/main.c6bc551f.chunk.js",
+    "main.js.map": "/Portifolio-GustavoJezini/static/js/main.c6bc551f.chunk.js.map",
     "runtime-main.js": "/Portifolio-GustavoJezini/static/js/runtime-main.ec2aaf76.js",
     "runtime-main.js.map": "/Portifolio-GustavoJezini/static/js/runtime-main.ec2aaf76.js.map",
     "static/js/2.6e24f757.chunk.js": "/Portifolio-GustavoJezini/static/js/2.6e24f757.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e0b3a1d4.chunk.js": "/Portifolio-GustavoJezini/static/js/3.e0b3a1d4.chunk.js",
     "static/js/3.e0b3a1d4.chunk.js.map": "/Portifolio-GustavoJezini/static/js/3.e0b3a1d4.chunk.js.map",
     "index.html": "/Portifolio-GustavoJezini/index.html",
-    "static/css/main.967f4fef.chunk.css.map": "/Portifolio-GustavoJezini/static/css/main.967f4fef.chunk.css.map",
+    "static/css/main.0d6374ae.chunk.css.map": "/Portifolio-GustavoJezini/static/css/main.0d6374ae.chunk.css.map",
     "static/js/2.6e24f757.chunk.js.LICENSE.txt": "/Portifolio-GustavoJezini/static/js/2.6e24f757.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portifolio-GustavoJezini/static/media/imagemProgramacao.e20f5587.jpeg",
     "static/media/img1.5fb6ca0f.jpeg": "/Portifolio-GustavoJezini/static/media/img1.5fb6ca0f.jpeg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec2aaf76.js",
     "static/js/2.6e24f757.chunk.js",
-    "static/css/main.967f4fef.chunk.css",
-    "static/js/main.eb2d3d48.chunk.js"
+    "static/css/main.0d6374ae.chunk.css",
+    "static/js/main.c6bc551f.chunk.js"
   ]
 }
