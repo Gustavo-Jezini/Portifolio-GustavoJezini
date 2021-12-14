@@ -27,10 +27,21 @@ function showLinks() {
         <h4>Gustavo Jezini</h4>
       </div>
       <ul className='links'>
-        <li>Sobre mim</li>
-        <li>Tecnologias</li>
-        <li>Projetos</li>
-        <li>Objetivos</li>
+        <li>
+          <a href='#sobreMim'>Sobre mim</a>
+        </li>
+        <li>
+        <a href='#tec' >Tecnologias</a>
+        </li>
+        <li>
+          <a href='#projetos' >Projetos</a>
+        </li>
+        <li>
+          <a href='#objetivos' >Objetivos</a>
+        </li>
+        <li>
+          <a>Contato</a>
+        </li>
       </ul>
         <div className='burger' onClick={showLinks}>
           <div className='line1'></div>

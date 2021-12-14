@@ -9,7 +9,7 @@ import MySQL from './icons/MySQL.png'
 
 const Tecnologias = () => {
   return (
-    <main className='tec'> 
+    <main id='tec' className='tec'> 
       <div className='tecTexto'>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
       </div>

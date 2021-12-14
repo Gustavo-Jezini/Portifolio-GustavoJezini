@@ -33,7 +33,7 @@ const Projetos = () => {
 
 
   return (
-    <main className='projetos'>
+    <main id='projetos' className='projetos'>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Indie+Flower&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet"/>
