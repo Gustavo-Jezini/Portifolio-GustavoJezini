@@ -26,7 +26,7 @@ const images = [
 ];
 
 
-const AppReceitas = ({ onClose, children }) => {
+const AppReceitas = ({ onClose }) => {
   const [current, setCurrent] = useState(0);
   const length = images.length;
 
@@ -46,7 +46,7 @@ const AppReceitas = ({ onClose, children }) => {
         <div className='button'>
         <button name='appReceitas' onClick={ onClose } className='close'>Close</button>
         </div>
-        <div className='content'>{children}</div>
+        <h1>Aplicativo de Receitas</h1>
           <div className='imagens'>
              { images.map( (image, index) => 
               <div className={index === current ? 'slide active' : 'slide' }>
@@ -61,6 +61,7 @@ const AppReceitas = ({ onClose, children }) => {
             <FaArrowAltCircleLeft onClick={prevImage} className='left-arrow' />
             <FaArrowAltCircleRight onClick={nextImage} className='right-arrow' />
           </div>
+          <span className='description'>Este projeto foi feito em squad. Utilizamos as API's externas TheMealDB e TheCockTailDB. O Projeto foi feito em 7 dias. Nele pude aperfeicoar diversas habilidades , tanto de softSkills quando de hardSkills. Como o Projeto era em grupo, em diversos momentos tive que assumir uma postura de lider para gerenciar alguns problemas. Com isso, pratiquei troca de feedbacks e troca de conhecimentos. Alem de tambem praticar FETCH de API, Context API e react HOOKS.</span>
       </div>
     </div>
   )

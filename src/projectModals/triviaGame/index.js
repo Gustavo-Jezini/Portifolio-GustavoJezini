@@ -17,7 +17,7 @@ const images = [
   { id: 6 , imageName: image6 },
 ];
 
-const Trivia = ({ onClose, children }) => {
+const Trivia = ({ onClose }) => {
   const [current, setCurrent] = useState(0);
   const length = images.length;
 
@@ -37,7 +37,7 @@ const Trivia = ({ onClose, children }) => {
         <div className='button'>
         <button onClick={ onClose } className='close'>Close</button>
         </div>
-        <div className='content'>{children}</div>
+        <h1>Jogo Trivia</h1>
           <div className='imagens'>
              { images.map( (image, index) => 
               <div className={index === current ? 'slide active' : 'slide' }>
@@ -52,6 +52,10 @@ const Trivia = ({ onClose, children }) => {
             <FaArrowAltCircleLeft onClick={prevImage} className='left-arrow' />
             <FaArrowAltCircleRight onClick={nextImage} className='right-arrow' />
           </div>
+          <span className='description'>
+            Projeto feito em Squad. Utilizamos uma API externa para as perguntas e suas respectivas respostas. Existe um sistema de ranking e tambem de pontuacao. Ao acertar rapido as questoes , mais pontos se faz. Nesse projeto pude treinar softSkills e HardSkills.
+          </span>
+
       </div>
     </div>
   )
