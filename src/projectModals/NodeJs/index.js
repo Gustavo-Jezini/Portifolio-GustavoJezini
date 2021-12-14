@@ -39,8 +39,6 @@ const NodeJs = ({ onClose, children }) => {
         </div>
         <div className='content'>{children}</div>
           <div className='imagens'>
-            <FaArrowAltCircleLeft onClick={prevImage} className='left-arrow' />
-            <FaArrowAltCircleRight onClick={nextImage} className='right-arrow' />
              { images.map( (image, index) => 
               <div className={index === current ? 'slide active' : 'slide' }>
                 { index === current && (
@@ -49,6 +47,10 @@ const NodeJs = ({ onClose, children }) => {
                 
               </div> 
             ) }
+          </div>
+          <div className='arrows'>
+            <FaArrowAltCircleLeft onClick={prevImage} className='left-arrow' />
+            <FaArrowAltCircleRight onClick={nextImage} className='right-arrow' />
           </div>
       </div>
     </div>

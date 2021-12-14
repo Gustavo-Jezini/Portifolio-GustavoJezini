@@ -15,7 +15,7 @@
   border-radius: 15px;
   background-color: white;
   color: black;
-  width: 80%;
+  width: 55%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
 
 .imagens {
   position: relative;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,15 +55,14 @@
 
 .imagem {
   max-width: 90%;
+  height: auto;
   align-self: center;
   position: relative;
   border-radius: 10px;
 }
 
 .left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 32px;
+  position: relative;
   font-size: 3rem;
   color: #000;
   z-index: 10;
@@ -71,9 +70,7 @@
 }
 
 .right-arrow {
-  position: absolute;
-  top: 50%;
-  right: 32px;
+  position: relative;
   font-size: 3rem;
   color: #000;
   z-index: 10;
