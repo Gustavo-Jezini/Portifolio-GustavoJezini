@@ -23,3 +23,8 @@
     height: auto;
   }
 }
+
+a {
+  text-decoration: none;
+  color: #f5b349;
+}
