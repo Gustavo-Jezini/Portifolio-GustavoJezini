@@ -37,6 +37,7 @@ const NodeJs = ({ onClose, children }) => {
         <div className='button'>
         <button onClick={ onClose } className='close'>Close</button>
         </div>
+        <h1>Projeto Back-end</h1>
         <div className='content'>{children}</div>
           <div className='imagens'>
              { images.map( (image, index) => 
@@ -52,6 +53,7 @@ const NodeJs = ({ onClose, children }) => {
             <FaArrowAltCircleLeft onClick={prevImage} className='left-arrow' />
             <FaArrowAltCircleRight onClick={nextImage} className='right-arrow' />
           </div>
+          <span className='description'>Utilizo um banco de dados do MongoDB (hardCoded) e nele insiro usuários, compras, transformo usuários simples em ADM. Posso fazer login com o usuário , e esse login gera um Token que é utilizado como uma verificação para futuras ações do usuário. Por exemplo: Usuários que comuns podem apenas editar suas proprias receitas.</span>
       </div>
     </div>
   )

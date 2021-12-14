@@ -13,8 +13,8 @@
 
 .container {
   border-radius: 15px;
-  background-color: white;
-  color: black;
+  background-color: #142433;
+  color: #f5b349;
   width: 55%;
   height: auto;
   display: flex;
@@ -25,6 +25,7 @@
 .close {
   background-color: transparent;
   outline: none;
+  color: red;
   width: 32px;
   height: 32px;
   border: none;
@@ -75,4 +76,14 @@
   color: #000;
   z-index: 10;
   cursor: pointer
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+.description {
+  margin: 10px 50px;
+  font-size: 20px;
 }
