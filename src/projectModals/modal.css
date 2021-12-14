@@ -1,6 +1,6 @@
 .modal {
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -15,8 +15,8 @@
   border-radius: 15px;
   background-color: white;
   color: black;
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,43 @@
   align-items: flex-end;
 }
 
-video {
-  height: 400px;
-  width: auto;
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagens {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem {
+  max-width: 90%;
+  align-self: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer
 }
