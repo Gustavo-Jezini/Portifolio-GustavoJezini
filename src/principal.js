@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Footer';
 import Header from './Header';
 import NavBar from './NavBar';
 import Objetivos from './Objetivos';
@@ -13,6 +14,7 @@ function Principal() {
     <Tecnologias/>
     <Projetos/>
     <Objetivos/>
+    <Footer />
     </>
   );
 }

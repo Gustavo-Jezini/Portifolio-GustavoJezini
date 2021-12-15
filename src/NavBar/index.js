@@ -40,7 +40,7 @@ function showLinks() {
           <a href='#objetivos' >Objetivos</a>
         </li>
         <li>
-          <a>Contato</a>
+          <a href='#footer'>Contato</a>
         </li>
       </ul>
         <div className='burger' onClick={showLinks}>
