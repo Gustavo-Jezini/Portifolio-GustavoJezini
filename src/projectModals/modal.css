@@ -103,6 +103,10 @@ h1 {
     font-size: 17px;
   }
 
+  .modal {
+    height: 600vh;
+  }
+
   .container {
     width: 95%;
   }
